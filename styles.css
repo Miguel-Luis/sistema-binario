@@ -202,10 +202,10 @@ button:active {
 
 .flame {
   position: absolute;
-  bottom: 120px;
+  bottom: 113px;
   left: 50%;
   width: 20px;
-  height: 34px;
+  height: 68px;
   transform: translateX(-50%) scale(0);
   transform-origin: center bottom;
   background: radial-gradient(circle at 50% 30%, #fff7c2 0 28%, #ffb703 45%, #ff6a00 72%, rgba(255, 106, 0, 0) 74%);
@@ -255,6 +255,11 @@ button:active {
   transform: translateX(-50%);
   border-radius: 999px;
   z-index: 2;
+  transition: background 0.25s ease;
+}
+
+.candle-card.on .wick {
+  background: linear-gradient(to top, #2a1c12 30%, #5c3a1a 50%, #b5601a 70%, #ff8c42 90%);
 }
 
 .candle {
