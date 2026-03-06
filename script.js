@@ -62,7 +62,6 @@ function render() {
         <div class="candle" aria-hidden="true"></div>
         <div class="base" aria-hidden="true">
           <div class="ring"></div>
-          <div class="ring"></div>
           <div class="plate"></div>
         </div>
       </div>
